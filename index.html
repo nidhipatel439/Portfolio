@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script async defer src="js/script.js"></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header id="header" class="box-shadow">
+      <div class="page-container flex-container">
+        <div id="site-name">
+          <a href="#">
+            <img src="images/logo.svg" alt="portfolio logo" />
+          </a>
+        </div>
+        <nav id="main-menu" aria-label="main navigation">
+          <div class="menu-toggle">
+            <span></span>
+          </div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="page-container fixed-padding">
+      <main id="main">
+        <section id="bannersection" class="flex-container section">
+          <div class="hero-image">
+            <img
+              src="images/me.jpg"
+              alt="A picture of Nidhi Patel."
+              width="300"
+            />
+          </div>
+          <div class="hero-description">
+            <p class="greeting">Hi there! I'm</p>
+            <h1><span>Nidhi</span> Patel</h1>
+            <p class="small-bio">
+              A <span>Full-stack Web Developer</span> passoinate about creating
+              interactive applications and experiences on the web.
+            </p>
+            <div class="social-resumes">
+              <a class="resume-link button" alt="Nidhi Patel's resume" href="#">
+                Resume
+              </a>
+              <ul class="social-list">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/nidhipatel439/"
+                    target="_blank"
+                    class="box-shadow"
+                  >
+                    <img
+                      src="images/linkedin.png"
+                      alt="Link to Nidhi's LinkedIn page"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/nidhipatel439"
+                    target="_blank"
+                    class="box-shadow"
+                  >
+                    <img
+                      src="images/github.png"
+                      alt="Link to Nidhi's Github page"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section id="aboutsection" class="section">
+          <div class="sectionhead">
+            <span>some info</span>
+            <h2>about me</h2>
+          </div>
+          <article class="about-conatiner box-shadow section-container">
+            <p>
+              I'm a full-stack web developer. My previous experience as an HTML
+              developer has given me a strong foundation for creating website
+              and building complex solutions. Currently, I am persuing Web
+              Development program from the <span>Humber college</span>. I am
+              passionate about coding and solving problems through code, and I
+              am excited to work alongside other amazing programmers and learn
+              so much more!
+            </p>
+          </article>
+        </section>
+        <section id="skillsection" class="section">
+          <div class="sectionhead">
+            <span>check out my</span>
+            <h2>skills</h2>
+          </div>
+          <div class="skill-container box-shadow section-container">
+            <ul class="skillsgrid">
+              <li class="box-shadow item-container">
+                <img src="images/html.png" alt="html icon" />
+                <p>HTML</p>
+              </li>
+              <li class="box-shadow item-container">
+                <img src="images/css.png" alt="css icon" />
+                <p>CSS</p>
+              </li>
+              <li class="box-shadow item-container">
+                <img src="images/javascript.png" alt="javascript icon" />
+                <p>Javascript</p>
+              </li>
+              <li class="box-shadow item-container">
+                <img src="images/react.png" alt="react icon" />
+                <p>React</p>
+              </li>
+              <li class="box-shadow item-container">
+                <img src="images/database.png" alt="sql icon" />
+                <p>SQL</p>
+              </li>
+              <li class="box-shadow item-container">
+                <img src="images/bootstrap.png" alt="bootstrap icon" />
+                <p>Bootstrap</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="projectsection" class="section">
+          <div class="sectionhead">
+            <span>Take a look at my</span>
+            <h2>projects</h2>
+          </div>
+          <div class="project-container">
+            <ul class="projectgrid flex-container">
+              <li class="box-shadow">
+                <div class="project-item">
+                  <img
+                    src="images/project1.png"
+                    alt="blog project screenshot"
+                    width="293"
+                  />
+                  <h3>Blog Page</h3>
+                  <h4>
+                    Technologies used: <span class="techstack">HTML5</span>,
+                    <span class="techstack">CSS3</span>
+                  </h4>
+                  <div class="projectlink">
+                    <a href="#" class="button">Live</a>
+                    <a href="#" class="button">Repo</a>
+                  </div>
+                </div>
+              </li>
+              <li class="box-shadow">
+                <div class="project-item">
+                  <img
+                    src="images/project2.png"
+                    alt="toys universe project screenshot"
+                    width="293"
+                  />
+                  <h3>Toys Universe</h3>
+                  <h4>
+                    Technologies used: <span class="techstack">HTML5</span>,
+                    <span class="techstack">CSS3</span>
+                  </h4>
+                  <div class="projectlink">
+                    <a href="#" class="button">Live</a>
+                    <a href="#" class="button">Repo</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="contactsection" class="section">
+          <div class="sectionhead">
+            <span>get in touch</span>
+            <h2>contact</h2>
+          </div>
+          <div class="contact-container box-shadow section-container">
+            <div class="email-box box-shadow">
+              <div class="email-icon"></div>
+              <a href="mailto:nidhipatel439@gmail.com">
+                nidhipatel439@gmail.com
+              </a>
+              <p>Email Me</p>
+            </div>
+            <div class="contactform-container">
+              <h3>Contact Form</h3>
+              <form id="contactform" action="index.html" method="post">
+                <div class="nameinput">
+                  <label for="nameinput" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    id="nameinput"
+                    name="nameinput"
+                    placeholder="Your Name*"
+                    required
+                  />
+                </div>
+                <div class="emailinput">
+                  <label for="emailinput" class="form-label">Email</label>
+                  <input
+                    type="text"
+                    id="emailinput"
+                    name="emailinput"
+                    placeholder="Your Email*"
+                    required
+                  />
+                </div>
+                <div class="subjectinput">
+                  <label for="subjectinput" class="form-label">Subject</label>
+                  <input
+                    type="text"
+                    id="subjectinput"
+                    name="subjectinput"
+                    placeholder="Subject*"
+                    required
+                  />
+                </div>
+                <div class="messageinput">
+                  <label for="messageinput" class="form-label">Message</label>
+                  <textarea
+                    id="messageinput"
+                    name="messageinput"
+                    placeholder="Your Message*"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="formbutton button">Submit</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer id="footer" class="box-shadow">
+      <div class="page-container">
+        <p>Nidhi Patel 2022</p>
+      </div>
+    </footer>
+  </body>
+</html>
