@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <script async defer src="js/script.js"></script>
     <title>Portfolio</title>
   </head>
   <body>
@@ -16,15 +15,16 @@
           </a>
         </div>
         <nav id="main-menu" aria-label="main navigation">
-          <div class="menu-toggle">
-            <span></span>
-          </div>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Works</a></li>
-            <li><a href="#">Contact</a></li>
+          <input id="menu-toggle" type="checkbox" />
+          <label class="menu-button-container" for="menu-toggle">
+            <div class="menu-button"></div>
+          </label>
+          <ul class="menu">
+            <li><a href="#bannersection">Home</a></li>
+            <li><a href="#aboutsection">About</a></li>
+            <li><a href="#skillsection">Skills</a></li>
+            <li><a href="#projectsection">Works</a></li>
+            <li><a href="#contactsection">Contact</a></li>
           </ul>
         </nav>
       </div>
