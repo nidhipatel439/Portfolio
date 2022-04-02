@@ -29,7 +29,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  font: normal 1em/1.4 "Space Mono", monospace;
+  font: normal 1.2em/1.4 "Space Mono", monospace;
   margin: 0;
   color: #000000;
 }
@@ -111,7 +111,7 @@ img {
   margin-bottom: 2em;
 }
 .sectionhead span {
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
   display: block;
   text-transform: uppercase;
   position: relative;
@@ -223,16 +223,15 @@ img {
 }
 .hero-description {
   flex: 3 0 0;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 .hero-description .greeting {
   text-transform: uppercase;
 }
 .hero-description h1 {
-  font-size: 3em;
+  font-size: 3.5em;
   text-transform: uppercase;
   font-weight: normal;
-  margin: 0.3em 0;
 }
 .hero-description h1 span,
 .hero-description .small-bio span {
@@ -393,14 +392,13 @@ img {
 @media screen and (max-width: 1024px) {
   .hero-description h1 {
     font-size: 2.5em;
-    margin: 0.2em 0;
   }
   .hero-image img {
     width: 280px;
     height: 280px;
   }
   .hero-description {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   .menu li {
     padding: 0 0.8em;
@@ -503,6 +501,12 @@ img {
   }
   .projectgrid li {
     padding: 1.5em;
+  }
+  .sectionhead h2 {
+    font-size: 1.8em;
+  }
+  .email-box a{
+    font-size: 0.9em;
   }
 }
 @media screen and (max-width: 320px) {
